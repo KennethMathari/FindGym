@@ -31,8 +31,8 @@ public class SignUp extends AppCompatActivity {
         EtFirstnameSignup=(EditText)findViewById(R.id.EtFirstnameSignup);
         EtLastnameSignup=(EditText)findViewById(R.id.EtLastnameSignup);
         EtEmailSignup=(EditText)findViewById(R.id.EtEmailSignup);
-        EtUsernameSignup=(EditText)findViewById(R.id.EtUsernameLogin);
-        EtPasswordSignup=(EditText)findViewById(R.id.EtPasswordLogin);
+        EtUsernameSignup=(EditText)findViewById(R.id.EtUsernameSignup);
+        EtPasswordSignup=(EditText)findViewById(R.id.EtPasswordSignup);
         BtnSignup=(Button)findViewById(R.id.BtnSignup);
 
         BtnSignup.setOnClickListener(new View.OnClickListener() {
